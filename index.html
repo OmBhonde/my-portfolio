@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omsing Bhonde - Data Analyst Portfolio</title>
+    <meta name="description" content="Portfolio of Data Analyst Omsing Bhonde showcasing skills in Python, SQL, ML, Tableau, Power BI.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <span class="logo-text">OB</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certifications" class="nav__link">Certifications</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#volunteering" class="nav__link">Volunteering</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Home Section -->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__content">
+                    <div class="home__greeting">Hello, I'm</div>
+                    <h1 class="home__title">Omsing Bhonde</h1>
+                    <h2 class="home__subtitle">Data Analyst & ML Engineer</h2>
+                    <p class="home__description">Transforming raw data into strategic insights that drive business growth through advanced analytics and machine learning.</p>
+                    
+                    <div class="home__buttons">
+                        <a href="https://github.com/OmBhonde" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="View GitHub Profile">
+                            <i class="fab fa-github"></i>
+                            GitHub Profile
+                        </a>
+                        <a href="mailto:bhondeom2000@gmail.com" class="btn btn--outline" aria-label="Contact via Email">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button" aria-label="Scroll to About section">
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Floating Shapes Background -->
+            <div class="home__shapes">
+                <div class="shape shape--circle"></div>
+                <div class="shape shape--triangle"></div>
+                <div class="shape shape--square"></div>
+                <div class="shape shape--hexagon"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="section__subtitle">Get to know me better</div>
+                
+                <div class="about__container">
+                    <div class="about__image">
+                        <div class="about__img-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="about__img-border"></div>
+                    </div>
+                    
+                    <div class="about__content">
+                        <div class="about__text">
+                            <p>Passionate Data Analyst with strong foundation in Python, SQL, Machine Learning, and Data Visualization. Fresh B.E. graduate with specialized Analytics certification, adept at transforming complex datasets into actionable business insights.</p>
+                            
+                            <p>Expertise in statistical modeling, predictive analytics, and dashboard creation using Tableau and Power BI. Proven ability to streamline processes and enhance decision-making capabilities through data-driven solutions. Ready to contribute technical skills and analytical mindset to drive organizational growth.</p>
+                        </div>
+                        
+                        <div class="about__contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Pune, India</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:bhondeom2000@gmail.com">bhondeom2000@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+919607312000">+91 9607312000</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <h2 class="section__title">Education</h2>
+                <div class="section__subtitle">Academic foundation</div>
+                
+                <div class="education__container">
+                    <div class="education__card">
+                        <div class="education__icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education__content">
+                            <h3 class="education__degree">Bachelor of Engineering in Information Technology</h3>
+                            <h4 class="education__institution">Shri Sant Gajanan Maharaj College of Engineering</h4>
+                            <div class="education__details">
+                                <span class="education__duration">2019 - 2023</span>
+                                <span class="education__cgpa">CGPA: 7.02/10.0</span>
+                            </div>
+                            <p class="education__description">Completed Bachelor of Engineering in Information Technology with a focus on data analytics, machine learning, and software development. Gained comprehensive knowledge in programming, database management, and statistical analysis during the four-year program.</p>
+                            
+                            <div class="education__highlights">
+                                <h5>Key Coursework & Achievements:</h5>
+                                <ul>
+                                    <li>Data Structures & Algorithms</li>
+                                    <li>Database Management Systems</li>
+                                    <li>Machine Learning & AI</li>
+                                    <li>Statistical Analysis & Research Methods</li>
+                                    <li>Software Engineering Principles</li>
+                                    <li>Web Technologies & Development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="section__subtitle">My technical expertise</div>
+                
+                <div class="skills__container">
+                    <div class="skills__category">
+                        <div class="category__header">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__badge">Python (Pandas, NumPy, Scikit-learn)</span>
+                            <span class="skill__badge">SQL</span>
+                            <span class="skill__badge">R</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <div class="category__header">
+                            <i class="fas fa-chart-bar"></i>
+                            <h3>Data Visualization</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__badge">Tableau</span>
+                            <span class="skill__badge">Power BI</span>
+                            <span class="skill__badge">Matplotlib</span>
+                            <span class="skill__badge">Seaborn</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <div class="category__header">
+                            <i class="fas fa-brain"></i>
+                            <h3>Machine Learning</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__badge">Regression</span>
+                            <span class="skill__badge">Classification</span>
+                            <span class="skill__badge">Neural Networks</span>
+                            <span class="skill__badge">Feature Engineering</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <div class="category__header">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Analytics</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__badge">Statistical Analysis</span>
+                            <span class="skill__badge">Predictive Modeling</span>
+                            <span class="skill__badge">A/B Testing</span>
+                            <span class="skill__badge">Time Series Analysis</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <div class="category__header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__badge">Excel (Advanced)</span>
+                            <span class="skill__badge">Jupyter Notebook</span>
+                            <span class="skill__badge">Git</span>
+                            <span class="skill__badge">OpenCV</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <div class="category__header">
+                            <i class="fas fa-database"></i>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skills__list">
+                            <span class="skill__badge">MySQL</span>
+                            <span class="skill__badge">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+                <div class="section__subtitle">Featured work showcasing my expertise</div>
+                
+                <div class="projects__container">
+                    <div class="project__card">
+                        <div class="project__image">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">FairSight: ML Bias & Fairness Auditor</h3>
+                            <p class="project__description">Developed Streamlit-based web application for assessing and visualizing bias and fairness in machine learning models using fairlearn toolkit, enabling data scientists and auditors to evaluate group fairness metrics and demographic parity differences with interactive dashboards.</p>
+                            
+                            <div class="project__tech">
+                                <span class="tech__tag">Python</span>
+                                <span class="tech__tag">Streamlit</span>
+                                <span class="tech__tag">Fairlearn</span>
+                            </div>
+                            
+                            <a href="https://github.com/OmBhonde/fairsight-bias-auditor" class="project__link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project__card">
+                        <div class="project__image">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Credit Card Fraud Detection System</h3>
+                            <p class="project__description">Engineered a comprehensive fraud detection pipeline utilizing Logistic Regression and Decision Trees, achieving 95% precision in identifying fraudulent transactions and performing in-depth analysis of transaction patterns with advanced statistical methods.</p>
+                            
+                            <div class="project__tech">
+                                <span class="tech__tag">Python</span>
+                                <span class="tech__tag">Scikit-learn</span>
+                                <span class="tech__tag">Pandas</span>
+                            </div>
+                            
+                            <a href="https://github.com/OmBhonde/credit-card-fraud-detection" class="project__link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project__card">
+                        <div class="project__image">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Brain Stroke Risk Prediction Model</h3>
+                            <p class="project__description">Developed predictive model with 93% accuracy and 92% recall for early stroke risk identification, implementing SMOTEENN oversampling technique to effectively handle class imbalance and deliver actionable insights for healthcare professionals.</p>
+                            
+                            <div class="project__tech">
+                                <span class="tech__tag">Python</span>
+                                <span class="tech__tag">SMOTEENN</span>
+                                <span class="tech__tag">Machine Learning</span>
+                            </div>
+                            
+                            <a href="https://github.com/OmBhonde/brain-stroke-prediction" class="project__link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project__card">
+                        <div class="project__image">
+                            <i class="fas fa-mask"></i>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Real-Time Mask Detection System</h3>
+                            <p class="project__description">Designed and deployed live video stream processing system with 95% detection accuracy using computer vision techniques for real-time object detection, contributing to public health and safety initiatives during pandemic response.</p>
+                            
+                            <div class="project__tech">
+                                <span class="tech__tag">Python</span>
+                                <span class="tech__tag">OpenCV</span>
+                                <span class="tech__tag">Computer Vision</span>
+                            </div>
+                            
+                            <a href="https://github.com/OmBhonde/mask-detection" class="project__link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certification & Training Section -->
+        <section class="certifications section" id="certifications">
+            <div class="container">
+                <h2 class="section__title">Certification & Training</h2>
+                <div class="section__subtitle">Continuous learning and professional development</div>
+                
+                <div class="certifications__container">
+                    <div class="cert__category">
+                        <h3 class="cert__category-title">Professional Certifications</h3>
+                        <div class="cert__list">
+                            <div class="cert__item">
+                                <div class="cert__icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="cert__content">
+                                    <h4>Post Graduate Certification in Analytics</h4>
+                                    <p>Imarticus Learning</p>
+                                    <span class="cert__year">2024</span>
+                                </div>
+                            </div>
+                            
+                            <div class="cert__item">
+                                <div class="cert__icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="cert__content">
+                                    <h4>Python for Beginners Course In-Depth</h4>
+                                    <p>Udemy</p>
+                                    <span class="cert__year">2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cert__category">
+                        <h3 class="cert__category-title">Industry Virtual Experiences</h3>
+                        <div class="cert__list">
+                            <div class="cert__item">
+                                <div class="cert__icon">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="cert__content">
+                                    <h4>Tata Data Visualization: Empowering Business with Effective Insights</h4>
+                                    <p>Forage</p>
+                                    <span class="cert__year">2023</span>
+                                </div>
+                            </div>
+                            
+                            <div class="cert__item">
+                                <div class="cert__icon">
+                                    <i class="fas fa-analytics"></i>
+                                </div>
+                                <div class="cert__content">
+                                    <h4>Accenture North America Data Analytics and Visualization Virtual Experience</h4>
+                                    <p>Forage</p>
+                                    <span class="cert__year">2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Volunteering Section -->
+        <section class="volunteering section" id="volunteering">
+            <div class="container">
+                <h2 class="section__title">Volunteering</h2>
+                <div class="section__subtitle">Community involvement and leadership</div>
+                
+                <div class="volunteering__container">
+                    <div class="volunteer__card">
+                        <div class="volunteer__icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="volunteer__content">
+                            <h3 class="volunteer__title">Technical Head & Supporter</h3>
+                            <h4 class="volunteer__organization">Team ITSA</h4>
+                            <p class="volunteer__description">Led technical initiatives and coordinated multiple technology-focused events. Managed technical teams, organized workshops, and facilitated knowledge-sharing sessions for students interested in information technology and software development.</p>
+                            
+                            <div class="volunteer__achievements">
+                                <div class="achievement">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>Led 5+ technical events</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-users-cog"></i>
+                                    <span>Mentored 20+ students</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="volunteer__card">
+                        <div class="volunteer__icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <div class="volunteer__content">
+                            <h3 class="volunteer__title">National Service Scheme (NSS) Volunteer</h3>
+                            <h4 class="volunteer__organization">NSS</h4>
+                            <p class="volunteer__description">Actively participated in community service projects and social welfare activities. Contributed to various social initiatives including environmental conservation, educational outreach, and community development programs.</p>
+                            
+                            <div class="volunteer__achievements">
+                                <div class="achievement">
+                                    <i class="fas fa-seedling"></i>
+                                    <span>Environmental initiatives</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-heart"></i>
+                                    <span>Community service</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3>Omsing Bhonde</h3>
+                    <p>Data Analyst & ML Engineer</p>
+                </div>
+                
+                <div class="footer__links">
+                    <a href="https://github.com/OmBhonde" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:bhondeom2000@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919607312000" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 Omsing Bhonde. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
