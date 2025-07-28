@@ -1128,6 +1128,21 @@ a:hover {
     transition: transform var(--duration-normal) var(--ease-standard);
 }
 
+.about__img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    box-shadow: var(--shadow-lg);
+    transition: transform var(--duration-normal) var(--ease-standard);
+}
+
+.about__img:hover {
+    transform: scale(1.05);
+}
+
 .about__img-placeholder:hover {
     transform: scale(1.05);
 }
